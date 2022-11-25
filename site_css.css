@@ -1,0 +1,57 @@
+.navbar {
+width: 100%;
+height: 70px;
+box-shadow: 1px 4px 10px rgba(250, 229, 69, 0.989);
+}
+.navbar .container {
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar-menu {
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+.navbar-menu li {
+    display: inline-block
+}
+.navbar-menu li a {
+    display: inline-block;
+    color: rgb(251, 213, 48);
+    opacity: 0,6;
+    text-decoration: none;
+    padding: 10px;
+}
+.navbar-wrap {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 26px;
+    text-decoration: none;
+    color: rgba(245, 192, 96, 0.958)
+}
+.navbar-menu li a:hover {
+opacity: 1}
+.navbar-brand:hover{
+    color:orange;
+}
+body.recepts li.rec {
+background-color: rgba(249, 168, 18, 0.305);
+}
+div.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+div.recept {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
